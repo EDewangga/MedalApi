@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <RelativeLayout
+        android:id="@+id/edit_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:context=".EditActivity"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="343dp"
+            android:layout_marginEnd="105dp"
+            android:text="Bronze"
+            android:textColor="#008000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/insertBronze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-58dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="247dp"
+            android:layout_marginEnd="104dp"
+            android:text="Silver"
+            android:textColor="#008000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inserSilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-55dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="104dp"
+            android:text="Gold"
+            android:textColor="#008000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/insertGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-55dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="28dp"
+            android:gravity="center"
+            android:text="Insert Negara"
+            android:textColor="#008000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="89dp"
+            android:layout_marginEnd="113dp"
+            android:text="Negara"
+            android:textColor="#008000"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/insertNegara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="-50dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="438dp"
+            android:layout_marginEnd="164dp"
+            android:backgroundTint="#2196F3"
+            android:text="Edit"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/submit"
+            android:layout_alignEnd="@+id/submit"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-94dp"
+            android:backgroundTint="#ff0030"
+            android:text="Cancel"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
